@@ -1,0 +1,32 @@
+Users REST API
+	*Retrieve all Users
+		*GET /users
+	
+	*Create a User
+		*POST /users
+		
+	*Retrieve a Specific User
+		*GET /users/{id} -> /users/1
+		
+	*Delete a User
+		*DELETE /users/{id} -> /users/1
+		
+	*Posts REST API
+		*Retrieve all posts for a user
+			*GET /users/{id}/posts
+			
+		*Create a post for a user
+			*POST /users/{id}/posts
+			
+		*Retrieve details of a post
+			*GET /users/{id}/posts/{post_id}
+
+-------------------------------------------------------------
+
+/users - to get all details of all users
+
+/users/{id} -> /users/{1} - to get the details of specific user
+
+/users/1/posts - to get the post of a specific user
+
+/users/1/posts/2 - to get the details of a specific post

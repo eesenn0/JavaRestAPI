@@ -1,0 +1,7 @@
+Request Methods for Rest API
+
+GET - Retrieve details of resource
+POST - Create a new resource
+PUT - Update an existing resource
+PATH - Update part of a resource
+DELETE - Delete a resource
