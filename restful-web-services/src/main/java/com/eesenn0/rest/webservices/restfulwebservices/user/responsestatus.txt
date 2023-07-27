@@ -1,0 +1,9 @@
+Response status for Rest API
+
+	Resource is not found => 404
+	Server exception => 500
+	Validation error => 400
+	Success => 200
+	Created => 201
+	No content => 204
+	Unauthorized => 401
